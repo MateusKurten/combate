@@ -1,0 +1,55 @@
+.container{
+	width: 960px;
+	padding: 0px 30px 0px 30px;
+	margin: auto;
+}
+
+.container2{
+	width: 400px;
+	padding: 0px 30px 0px 30px;
+	margin: auto;
+	background-color: rgba(200,200,200,0.95);
+	border: solid white 3px
+}
+
+html {
+	background-image: url("https://download.hipwallpaper.com/desktop/1920/1080/33/18/mouVTa.jpg");
+	font-size: 20px;
+}
+
+header {
+	display:block;
+	margin-bottom: 1px;
+	padding: 30px;
+	background-color: rgba(200,200,200,0.5);
+}
+
+header.home{
+	padding: 10px;
+	display:block;
+	
+}
+
+h1{
+	font-size: 40px;
+	text-align: center;
+}
+
+table.stats{
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 2px;
+	text-align: center;
+}
+
+td.stats {
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+	border: solid 2px;
+}
+
+div.botaofinal{
+	text-align: center;
+	padding-bottom: 20px;
+}

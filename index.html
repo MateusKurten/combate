@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Combate</title>
+<script type="text/javascript" src="codigo.js"></script>
+<link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body>
+<div class="container">
+<header class="home">
+<h1>Combate</h1>
+</header>
+</div>
+<br><br>
+<div class="container2">
+<h1>Jogador</h1>
+<div style="text-align: center; margin-top: 20px;">
+<input type="button" id="rolardados" value="Rolar Dados" onclick="iniciarJogador()"></input>
+</div>
+<br>
+<table class="stats">
+<tr>
+<td class="stats">Habilidade</td>
+<td class="stats">Energia</td>
+<td class="stats">Sorte</td>
+</tr>
+<tr>
+<td class="stats" id="tabhabilidade"></td>
+<td class="stats" id="tabenergia"></td>
+<td class="stats" id="tabsorte"></td>
+</tr>
+</table>
+<br><br>
+<div class="botaofinal">
+<input type="button" value="Re-rolar os dados" onclick="reroll()"></input>
+</div>
+<h1>Monstro</h1>
+<div class="botaofinal">
+<input type="button" value="Escolher Gark" onclick="escolherMonstro(Gark)"></input>
+<input type="button" value="Escolher Hidra" onclick="escolherMonstro(Hidra)"></input>
+<input type="button" value="Escolher Elfo Negro" onclick="escolherMonstro(ElfoNegro)"></input>
+<br>
+<input type="button" value="Escolher Gira 1" onclick="escolherMonstro(PrimeiroGira)"></input>
+<input type="button" value="Escolher Gira 2" onclick="escolherMonstro(SegundoGira)"></input>
+<input type="button" value="Escolher Balthus Dire" onclick="escolherMonstro(BalthusDire)"></input>
+</div>
+<table class="stats">
+<tr>
+<td class="stats">Nome</td>
+<td class="stats">Energia</td>
+<td class="stats">Habilidade</td>
+</tr>
+<tr>
+<td class="stats" id="tabmonstronome"></td>
+<td class="stats" id="tabmonstroenergia"></td>
+<td class="stats" id="tabmonstrohabilidade"></td>
+</tr>
+</table>
+<br>
+<div class="botaofinal">
+<input type="button" value="Batalhar" onclick="batalha()"></input>
+</div>
+</div>
+</body>
+</html>
